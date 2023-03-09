@@ -1,0 +1,57 @@
+*,
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#main {
+  margin: 0%;
+}
+
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: serif;
+  color: #666666;
+}
+.topspace {
+  margin-top: 40px;
+  justify-content: center;
+}
+
+nav {
+  background-color: #000000;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.btn:a {
+  text-decoration: none;
+  border-radius: 10px;
+  transition-delay: 0.2s;
+}
+
+#footer {
+  background: #000000;
+  padding: 30px;
+  color: #999;
+}
+#footer a {
+  color: #ccc;
+}
+#footer a:hover {
+  color: rgb(51, 37, 37);
+}
+
